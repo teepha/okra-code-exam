@@ -1,0 +1,100 @@
+/* NavBar Icon */
+.navigation-icon {
+  cursor: pointer;
+  width: 40px;
+
+  &__bar {
+    width: 26px;
+    border: 0.6px solid #3d3c3c;
+    margin-bottom: 7px;
+    opacity: 1;
+  }
+}
+.bottom-bar {
+  width: 18px;
+}
+.top-bar {
+  width: 12px;
+}
+
+/* NavBar Nav */
+.navigation-nav {
+  padding: 1em;
+  margin-top: 3em;
+
+  .user-profile {
+    display: flex;
+
+    &__user-name {
+      line-height: 0.5;
+      margin-left: 8px;
+    }
+
+    &__user-name h3 {
+      font-family: "Helvetica", "Neue LT Std";
+      font-size: 16px;
+      font-weight: 300;
+      margin: 12px 0;
+      color: #3d3c3c;
+    }
+
+    &__user-name p {
+      font-family: "Roman", "Helvetica", "Neue LT Std";
+      font-size: 12px;
+      font-weight: 300;
+      color: #717d7c;
+    }
+  }
+
+  &__close-icon {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+    cursor: pointer;
+    color: #3d3c3c;
+    margin: 3em 1em 0 0;
+  }
+  &__close-icon:before,
+  &__close-icon:after {
+    position: absolute;
+    left: 15px;
+    content: " ";
+    height: 33px;
+    width: 1.4px;
+    background-color: #3d3c3c;
+  }
+  &__close-icon:before {
+    transform: rotate(45deg);
+  }
+  &__close-icon:after {
+    transform: rotate(-45deg);
+  }
+
+  &__link {
+    font-family: "Helvetica", " Neue LT Std";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #3d3c3c;
+    line-height: 4;
+    margin-top: 3.5em;
+    span {
+      margin-left: 2em;
+    }
+    padding: 1em;
+  }
+  &__icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+  }
+  hr {
+    width: 214px;
+    height: 0px;
+    border: 0.5px solid #d9dbdb;
+    margin-top: 180px;
+  }
+}
